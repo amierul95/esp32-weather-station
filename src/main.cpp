@@ -23,7 +23,7 @@ Storage_LittleFS lfs;
 Time_DS3231 ds3231;
 Network_WiFi wifi;
 Serial_UART ser;
-Serial_UART ser;
+Serial_UARTT ser;
 
 WeatherStation ws(ssd1306, wifi, dht22, lfs, ds3231, ser);
 
